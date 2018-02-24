@@ -115,7 +115,6 @@ int main(int argc, char *argv[]) {
 
 // 2.  The PPID in the child process is 1. 
 //     With the help of Stack Overflow >>> https://stackoverflow.com/questions/13170757/why-does-this-ppid-1-am-i-missing-something-about-fork
-//     We know that when a process's child process is stopped before the child is completed
-//     the child processes get assigned PPID of 1
+//     We know that when a process is stopped before the child is completed the child processes get assigned PPID of 1
 
 // Seung Ki Lee
