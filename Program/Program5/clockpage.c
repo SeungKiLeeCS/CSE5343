@@ -77,7 +77,6 @@ void writeClockToFile(FILE* filePtr, int page, char* operation, struct result* r
 
       int p = pointer;
       int running = 1;
-      // First pass
       // 2.   Check to see if the page in the record is already in the clock and if it is update to appropriate flag(s).  
       // (This will not reposition the next frame pointer)
       while (running) {
